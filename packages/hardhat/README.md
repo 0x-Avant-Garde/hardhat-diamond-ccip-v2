@@ -27,6 +27,10 @@ cd hardhat-diamond-ccip
 yarn install
 ```
 
+If you get yarn errors during installation, you may need to run:
+
+`yarn set version stable`
+
 2. Run the tests to ensure everything is setup properly.
 
 ```

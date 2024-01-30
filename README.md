@@ -27,6 +27,7 @@ Before you begin, you need to install the following tools:
 
 - [Node (v18 LTS)](https://nodejs.org/en/download/)
 - Yarn ([v1](https://classic.yarnpkg.com/en/docs/install/) or [v2+](https://yarnpkg.com/getting-started/install))
+
 - [Git](https://git-scm.com/downloads)
 
 ## Quickstart
@@ -40,6 +41,10 @@ git clone https://github.com/scaffold-eth/scaffold-eth-2.git
 cd scaffold-eth-2
 yarn install
 ```
+
+If you get yarn errors during installation, you may need to run:
+
+`yarn set version stable`
 
 2. Run a local network in the first terminal:
 
@@ -313,4 +318,5 @@ To disable it, **delete `.github` directory**
 We welcome contributions to Scaffold-ETH 2!
 
 Please see [CONTRIBUTING.MD](https://github.com/scaffold-eth/scaffold-eth-2/blob/main/CONTRIBUTING.md) for more information and guidelines for contributing to Scaffold-ETH 2.
+
 # hardhat-diamond-ccip-v2
